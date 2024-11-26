@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   release:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     name: Build, package and upload .jar artifact
     steps:
     - uses: actions/checkout@v4.2.2
